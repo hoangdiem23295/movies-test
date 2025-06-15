@@ -45,22 +45,22 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 The following **required** functionality is completed:
 
-- [ ] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
-- [ ] Add a tab bar for **Now Playing** and **Top Rated** movies.
-- [ ] Add a search bar.
-- [ ] User can view movie details by tapping on a cell.
-- [ ] User sees loading state while waiting for the API.
-- [ ] User sees an error message when there is a network error.
-- [ ] Simple responsive.
+- [x] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
+- [x] Add a tab bar for **Now Playing** and **Top Rated** movies.
+- [x] Add a search bar.
+- [x] User can view movie details by tapping on a cell.
+- [x] User sees loading state while waiting for the API.
+- [x] User sees an error message when there is a network error.
+- [x] Simple responsive.
 
 The following **optional** features are implemented:
 
-- [ ] Implement segmented control to switch between list view and grid view.
-- [ ] All images fade in.
-- [ ] Implement lazy load image.
-- [ ] Customize the highlight and selection effect of the cell.
-- [ ] Improve UX loading by skeleton loading.
-- [ ] Enhance responsive.
+- [x] Implement segmented control to switch between list view and grid view.
+- [x] All images fade in.
+- [x] Implement lazy load image.
+- [x] Customize the highlight and selection effect of the cell.
+- [x] Improve UX loading by skeleton loading.
+- [x] Enhance responsive.
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
