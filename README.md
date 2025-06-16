@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Here's a walkthrough of implemented user stories:
 
+![Uploading 2025-06-16_09h23_18.gif…]()
 
 ## Available Scripts
 
