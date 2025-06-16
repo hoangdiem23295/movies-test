@@ -41,16 +41,28 @@ const MovieDetailPage = () => {
           alt={movie.title}
           className="w-full md:w-[300px] rounded-lg shadow-md object-cover"
         />
-
         <div className="flex-1">
           <h1 className="text-3xl font-bold">{movie.title}</h1>
           <p className="text-gray-500 text-sm italic">{movie.tagline}</p>
 
           <div className="mt-2 flex flex-wrap gap-4 text-sm text-gray-700">
-            <span>📅 {movie.release_date}</span>
-            <span>⏱️ {movie.runtime} minutes</span>
-            <span>
-              ⭐ {movie.vote_average} / 10 ({movie.vote_count} votes)
+            <span className="flex items-center justify-center">
+              <span className="material-symbols-rounded text-blue-500">
+                calendar_month
+              </span>{" "}
+              {movie.release_date}
+            </span>
+            <span className="flex items-center justify-center">
+              <span className="material-symbols-rounded text-pink-500">
+                alarm_on
+              </span>{" "}
+              {movie.runtime} minutes
+            </span>
+            <span className="flex items-center justify-center">
+              <span className="material-symbols-rounded text-yellow-500">
+                star
+              </span>{" "}
+              {movie.vote_average} / 10 ({movie.vote_count} votes)
             </span>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
