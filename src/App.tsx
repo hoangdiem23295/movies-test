@@ -38,24 +38,26 @@ function App({ activeTab, searchTerm }: AppProps) {
       {error && <p className="text-red-500">Error: {error}</p>}
       <div className="flex justify-end gap-2 p-4">
         <button
-          className={`px-4 py-2 rounded border ${
+          className={`px-4 py-2 rounded border flex items-center justify-center ${
             viewMode === "grid"
-              ? "bg-blue-500 text-white"
+              ? "bg-[#1e293b] text-white"
               : "bg-white text-black"
           }`}
           onClick={() => setViewMode("grid")}
+          title="Grid View"
         >
-          Grid
+          <span className="material-symbols-rounded">grid_view</span>
         </button>
         <button
-          className={`px-4 py-2 rounded border ${
+          className={`px-4 py-2 rounded border flex items-center justify-center ${
             viewMode === "list"
-              ? "bg-blue-500 text-white"
+              ? "bg-[#1e293b] text-white"
               : "bg-white text-black"
           }`}
           onClick={() => setViewMode("list")}
+          title="List View"
         >
-          List
+          <span className="material-symbols-rounded">list</span>
         </button>
       </div>
       <div
