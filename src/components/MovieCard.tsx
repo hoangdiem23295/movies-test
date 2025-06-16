@@ -43,11 +43,11 @@ const MovieCard: React.FC<{ movie: Movie; viewMode?: "grid" | "list" }> = ({
       onClick={() => navigate(`/movie/${movie.id}`)}
       className={
         viewMode === "grid"
-          ? "bg-white relative group cursor-pointer"
+          ? "bg-white relative group cursor-pointer rounded shadow"
           : "flex items-start gap-4 bg-white rounded shadow p-4 cursor-pointer"
       }
     >
-      <div className="bg-white rounded shadow overflow-hidden">
+      <div className="bg-white overflow-hidden rounded">
         <div className=" aspect-video w-full relative bg-gray-200">
           {!loaded && (
             <div className="absolute inset-0 bg-gray-300 animate-pulse" />
