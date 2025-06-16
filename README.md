@@ -14,11 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -39,8 +34,26 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## User Stories
+
+The following **required** functionality is completed:
+
+- [x] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
+- [x] Add a tab bar for **Now Playing** and **Top Rated** movies.
+- [x] Add a search bar.
+- [x] User can view movie details by tapping on a cell.
+- [x] User sees loading state while waiting for the API.
+- [x] User sees an error message when there is a network error.
+- [x] Simple responsive.
+
+The following **optional** features are implemented:
+
+- [x] Implement segmented control to switch between list view and grid view.
+- [x] All images fade in.
+- [x] Implement lazy load image.
+- [x] Customize the highlight and selection effect of the cell.
+- [x] Improve UX loading by skeleton loading.
+- [x] Enhance responsive.
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
