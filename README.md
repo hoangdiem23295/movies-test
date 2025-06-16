@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+![2025-06-16_09h23_18](https://github.com/user-attachments/assets/9dab0515-e497-401f-9eef-5bf9d80b6356)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
